@@ -7,7 +7,6 @@
 		<link rel="stylesheet" href="styles/stylesheetnav.css">
 		<link rel="stylesheet" href="styles/stylesheetmain.css">
 		<link rel="stylesheet" href="styles/slideshow.css">
-
 	 <script>
 	 	var slideIndex = 1;
 		showSlides(slideIndex);
@@ -38,73 +37,68 @@
   			dots[slideIndex-1].className += " active";
 			}
 
-
-
 	 </script>
 	</head>
   	<body>
-
-  		<div class="topfixed">
 		<!--header contains the brand id and logo-->
 			<header>
-				<img src="images/logo.png" alt="logo">
-
+				<div class="flex-container-grid">
+					<div class="navbox">
+						<img src="images/logo.png" alt="logo">
+					</div>
+				</div>
 				<!--nav contains the global navigation for the website-->
-					<nav>
-						<ul class="nav__links">
-							<li><a href="index.html">Home</a></li>
+				<nav>
+					<ul class="nav__links">
+						<li><a href="index.html">Home</a></li>
 							<li><a href="html/menu.html">Menu</a></li>
-							<li><a href="html/ourstory.html">Our Story</a></li>
+							<li><a href="html/ourstory.html">Our&nbsp;Story</a></li>
 						</ul>
 					</nav>
-			</header>
-		</div>
 
+			</header>
 		<p><br /><br /><br /><br /></p>
 
 
 		<main>
-
-
 			<!-- Slideshow container -->
 			<div class="slideshow-container">
 
- 			 <!-- Full-width images with number and caption text -->
- 			<div class="herobord">
-  			<div class="mySlides fade">
-    		<img src="images/minicupv2.jpg" style="width:100%">
-    		</div>
+ 			 <!-- Slide Show images -->
+ 				<div class="herobord">
+  					<div class="mySlides fade">
+    					<img src="images/minicupv2.jpg" style="width:100%">
+    				</div>
 
-  			<div class="mySlides fade">
-    		<img src="images/heroslidev2.jpg" style="width:100%">
-  			</div>
+  					<div class="mySlides fade">
+    					<img src="images/cookieherov2.jpg" style="width:100%">
+  					</div>
 
 
-  			<div class="mySlides fade">
-    		<img src="images/eclairv2.jpg" style="width:100%">
-  			</div>
-  			</div>
+  					<div class="mySlides fade">
+    					<img src="images/eclairv2.jpg" style="width:100%">
+  					</div>
+  				</div>
 
 
 			<!-- The dots/circles -->
-			<div style="text-align:center">
-  			<span class="dot" onclick="currentSlide(1)"></span>
-  			<span class="dot" onclick="currentSlide(2)"></span>
-  			<span class="dot" onclick="currentSlide(3)"></span>
+				<div style="text-align:center">
+  					<span class="dot" onclick="currentSlide(1)"></span>
+  					<span class="dot" onclick="currentSlide(2)"></span>
+  					<span class="dot" onclick="currentSlide(3)"></span>
+				</div>
 			</div>
 
-
 			<p><br /><br /><br /><br /></p>
-
+			<div class = "pagecontainer">
 			<h1 class="bakheading">
-
 				Baked Fresh Daily
 			</h1>
 
 			<hr class="hr-4">
 			<p><br /><br /></p>
 
-			<div class="row">
+			<div class="row1">
   				<div class="img1">
     				<img src="images/cookies.jpg" alt="Cookies" style="width:100%">
     				<h4>Cookies</h4>
@@ -122,45 +116,33 @@
   				</div>
 			</div>
 
-
 			<p><br /><br /><br /><br /><br /><br /><br /></p>
 
 
 			<h1 class="bakheading">
-
 				Let us bake something for you!
 			</h1>
 			<hr class="hr-4">
-			<p><br /><br /><br /></p>
+			<p><br /><br /></p>
 
 			<div class="customcontainerimg">
 				<div class="herobord">
-				<img src="images/customd.jpg" alt="Custom Cake" style="width:100%">
-
+					<img src="images/customcake.jpg" alt="Custom Cake" style="width:100%">
 				</div>
 			</div> 
 
 			<p><br /><br /></p>
 
-			<h4>Custom Cakes and Dessert Platters Available Upon Request.</h4>
+			<h4>Custom cakes and dessert platters available upon request.</h4>
 			<hr class="hr-4">
 
 			<p class="clsmain">
-
-				Let us bake something for your next event! Email custom request to <strong>ppastrys121@outlook.com</strong> and we will respond within 8 business hours. Or if you prefer drop by in-store and ask one of our employees about custom orders. 
-
+				Let us bake something for your next event! Email custom requests to <strong>ppastrys121@outlook.com</strong> and we will respond within 8 business hours. If you prefer to drop by in person to make your custom request please just ask one of our employees about custom orders and we will gladly assist. 
 			</p>
-
-
-
-
-
-
-		<p><br /><br /><br /><br /><br /><br /><br /><br /><br /></p>
-
-
+			<p><br /><br /><br /><br /></p>
+		</div>
 		</main>		
-		
+
 		<script>
 			var slideIndex = 0;
 			showSlides();

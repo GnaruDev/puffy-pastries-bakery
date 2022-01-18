@@ -4,17 +4,32 @@
 	padding: 0;
 }
 
-.topfixed{
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	background-color:#f8afa6;
-	border-bottom-style: solid;
-	border-color: #f79489;
+
+.flex-container-grid{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1000px;
+
+}
+
+
+.navbox{
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: calc(25% - 10 px);
+	margin: 5px;
+
+
+}
+
+
+
+img{
+	width: 100%;
 }
 
 li, a, button{
-	font-family: Century, verdana, sans-serif;
+	font-family: century, verdana, sans-serif;
 	font-size: 22px;
 	color: #f79489;
 	text-decoration: none;
@@ -22,12 +37,14 @@ li, a, button{
 }
 
 header{
-
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 30px 10%;
 	background-color: #fadcd9;
+	border-bottom-style: solid;
+	border-color: #f79489;
+	overflow: hidden;
 }
 
 
@@ -56,18 +73,4 @@ header{
 	text-decoration: underline;
 
 }
-
-button{
-	padding: 9px 25px;
-	background-color: rgba(0,136,169,1);
-	border: none;
-	border-radius: 50px;
-	cursor: pointer;
-	transition: all 0.3s ease 0s;
-}
-
-button:hover{
-	background-color: rgba(0,136,169,0.8);
-}
-
 
